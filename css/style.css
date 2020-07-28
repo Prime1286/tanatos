@@ -1,0 +1,20 @@
+@import '../css/header.css';
+@import '../css/services.css';
+@import '../css/subscribe.css';
+@import '../css/works.css';
+@import '../css/testimonials.css';
+@import '../css/team.css';
+@import '../css/form.css';
+@import '../css/footer.css';
+html {scroll-behavior: smooth;}
+body {
+color:#3b434c;
+font-family:'Open Sans', sans-serif;    
+}
+.container {
+max-width: 1200px;
+width: 100%;
+padding: 0 15px;
+margin: 0 auto;
+}
+img {max-width: 100%;}

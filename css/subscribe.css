@@ -1,0 +1,103 @@
+.subscribe {
+  width: 100%;
+  padding: 100px 15px;
+  position: relative;
+  background: url("../img/subscribe_bg.jpg") no-repeat center/cover;
+}
+
+@media screen and (max-width: 600px) {
+  .subscribe {
+    padding: 50px 15px;
+  }
+}
+
+.subscribe:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(59, 67, 76, 0.5);
+}
+
+.subscribe__form {
+  position: relative;
+  max-width: 864px;
+  margin: 0 auto;
+}
+
+.subscribe__form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .subscribe__form form {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .subscribe__form form input {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    max-width: 100%;
+    height: 50px;
+  }
+}
+
+.subscribe__text {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 calc(65% - 15px);
+          flex: 0 1 calc(65% - 15px);
+  max-width: calc(65% - 15px);
+  padding: 20px 25px;
+  font-size: 16px;
+  color: #3b434c;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .subscribe__text {
+    margin-bottom: 25px;
+  }
+}
+
+.subscribe__text:focus {
+  border: 1px solid #f7600e;
+}
+
+.subscribe__btn {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 calc(35% - 15px);
+          flex: 0 1 calc(35% - 15px);
+  max-width: calc(35% - 15px);
+  border-radius: 10px;
+  background-color: #f7600e;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  border: 1px solid transparent;
+}
+
+.subscribe__btn:hover {
+  background-color: #fff;
+  color: #f7600e;
+  border: 1px solid #f7600e;
+}
+/*# sourceMappingURL=subscribe.css.map */
