@@ -93,6 +93,7 @@
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
   border: 1px solid transparent;
+  -webkit-appearance: none;
 }
 
 .subscribe__btn:hover {
